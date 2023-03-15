@@ -1,0 +1,129 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.loginForm{
+  padding: 50px;
+  margin: 0 auto;
+  height: 500px;
+  width: 500px;
+}
+
+.loginFormHeader{
+  color: brown;
+}
+
+.todoHeader{
+  position: absolute;
+  width: 111px;
+  height: 22px;
+  left: 0px;
+  top: 74px;
+  
+  /* H5 */
+  
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  
+  color: #0B0D26;
+}
+
+.renderTodoList{
+  position: absolute;
+  width: 1226px;
+  height: 325px;
+  left: 50px;
+  top: 157px;  
+  background: #FFFFFF;
+  box-shadow: 0px 7px 29px rgba(100, 100, 111, 0.2);
+  border-radius: 10px;
+  margin: 0 ,auto;
+  padding: 10px;
+}
+
+.centerAll{
+  text-align: center;
+}
+
+.addEmployeeForm{
+  margin: 0px 10px 10px 10px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.btn_add{
+  position: relative;
+  right: -500px;
+  top: 90px;
+  bottom: 0%;  
+  background-color: #1D79F2;
+  border-radius: 20px;
+  color: #FFFFFF;
+}
+.btn_submit{
+  position: absolute;
+  width: 75px;
+  height: 34px;
+  left: 500px;
+  top: 534px;
+  
+  /* Body Text */
+  
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 450;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height */  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: #1D79F2;
+  color: #0B0D26;
+}
+
+
+.card{
+  position: absolute;
+  width: 1040px;
+  height: 325px;
+  left: 80px;
+  top: 157px;
+  background: #FFFFFF;
+  box-shadow: 0px 7px 29px rgba(100, 100, 111, 0.2);
+  border-radius: 10px;
+}
+.card-text{
+  position: absolute;
+  width: 172px;
+  height: 16px;
+  left: 465px;
+  top: 235px;
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #434459;
+}
